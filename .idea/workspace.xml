@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="96a1d60e-ee7a-437b-8f10-7915540df93d" name="Changes" comment="feat: connected database to server">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-server/src/notification/notification.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-server/src/user/dto/create-user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-server/src/user/entities/user.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-server/src/user/user.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-server/src/user/user.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-server/src/user/user.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-server/src/user/user.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-server/src/user/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-database/dist/tsconfig.build.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/micro-database/dist/tsconfig.build.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/src/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/src/app.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-server" beforeDir="false" afterPath="$PROJECT_DIR$/micro-server" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/micro-notification" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2h9X7w1Q7nvEYlX0FoLC88Pw6EB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dumb/microservices/micro-server&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Dumb\\microservices\\micro-server\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dumb\microservices\micro-server" />
+      <recent name="D:\Dumb\microservices\http-server\src\users\entities" />
+      <recent name="D:\Dumb\microservices\http-server\src\users\dto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dumb\microservices\http-server\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96a1d60e-ee7a-437b-8f10-7915540df93d" name="Changes" comment="" />
+      <created>1717007102962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717007102962</updated>
+      <workItem from="1717007104145" duration="5399000" />
+      <workItem from="1717022588299" duration="21242000" />
+      <workItem from="1717270279979" duration="2407000" />
+      <workItem from="1717332527361" duration="2822000" />
+      <workItem from="1717335445826" duration="10664000" />
+      <workItem from="1717354771073" duration="2773000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: connect notification to server">
+      <created>1717334266266</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717334266266</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: added readme file">
+      <created>1717334769427</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717334769427</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: added notification and user modules">
+      <created>1717347826325</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717347826325</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: connected database to server">
+      <created>1717354227358</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717354227358</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: connected database to server">
+      <created>1717354247607</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717354247607</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: connect notification to server" />
+    <MESSAGE value="feat: added readme file" />
+    <MESSAGE value="feat: added notification and user modules" />
+    <MESSAGE value="feat: connected database to server" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: connected database to server" />
+  </component>
+</project>
