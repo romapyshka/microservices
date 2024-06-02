@@ -4,29 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96a1d60e-ee7a-437b-8f10-7915540df93d" name="Changes" comment="feat: connected database to server">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-server/src/notification/notification.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-server/src/user/dto/create-user.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-server/src/user/entities/user.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-server/src/user/user.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-server/src/user/user.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-server/src/user/user.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-server/src/user/user.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-server/src/user/user.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-database/dist/tsconfig.build.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/micro-database/dist/tsconfig.build.tsbuildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-notification/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-notification/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-notification/src/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/src/app.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-server" beforeDir="false" afterPath="$PROJECT_DIR$/micro-server" afterDir="false" />
-    </list>
+    <list default="true" id="96a1d60e-ee7a-437b-8f10-7915540df93d" name="Changes" comment="feat: added webhook notification" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/micro-notification" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/micro-server" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
@@ -76,7 +61,7 @@
       <workItem from="1717270279979" duration="2407000" />
       <workItem from="1717332527361" duration="2822000" />
       <workItem from="1717335445826" duration="10664000" />
-      <workItem from="1717354771073" duration="2773000" />
+      <workItem from="1717354771073" duration="3097000" />
     </task>
     <task id="LOCAL-00001" summary="feat: connect notification to server">
       <created>1717334266266</created>
@@ -113,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717354247607</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: added webhook notification">
+      <created>1717369491557</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717369491557</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +116,7 @@
     <MESSAGE value="feat: added readme file" />
     <MESSAGE value="feat: added notification and user modules" />
     <MESSAGE value="feat: connected database to server" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: connected database to server" />
+    <MESSAGE value="feat: added webhook notification" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added webhook notification" />
   </component>
 </project>
