@@ -1,0 +1,1 @@
+git clone --recurse-submodules <URL_до_основного_репозиторію>
