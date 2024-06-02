@@ -1,0 +1,9 @@
+[submodule "server"]
+	path = micro-server
+	url = git@github.com:romapyshka/micro-server.git
+[submodule "notification"]
+	path = micro-notification
+	url = git@github.com:romapyshka/micro-notification.git
+[submodule "database"]
+	path = micro-database
+	url = git@github.com:romapyshka/micro-database.git
