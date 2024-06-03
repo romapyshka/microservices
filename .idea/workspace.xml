@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96a1d60e-ee7a-437b-8f10-7915540df93d" name="Changes" comment="refactor: moved the database to a separate module">
-      <change afterPath="$PROJECT_DIR$/micro-server/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-server" beforeDir="false" afterPath="$PROJECT_DIR$/micro-server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/micro-server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-server/src/app.controller.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-server/src/user/user.controller.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-server/src/user/user.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-server/test/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-server/test/jest-e2e.json" beforeDir="false" />
+    <list default="true" id="96a1d60e-ee7a-437b-8f10-7915540df93d" name="Changes" comment="refactor: deleted tests and added env example">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/src/app.controller.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/src/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/src/app.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/src/queue/queue.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/src/queue/queue.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/src/queue/queue.processor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/src/queue/queue.processor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/src/queue/queue.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/src/queue/queue.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/src/queue/queue.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/test/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/test/jest-e2e.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +33,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/micro-server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/micro-notification" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
@@ -77,7 +83,7 @@
       <workItem from="1717270279979" duration="2407000" />
       <workItem from="1717332527361" duration="2822000" />
       <workItem from="1717335445826" duration="10664000" />
-      <workItem from="1717354771073" duration="6553000" />
+      <workItem from="1717354771073" duration="7504000" />
     </task>
     <task id="LOCAL-00001" summary="feat: connect notification to server">
       <created>1717334266266</created>
@@ -156,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717373173888</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refactor: deleted tests and added env example">
+      <created>1717373389858</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717373389858</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +184,7 @@
     <MESSAGE value="feat: remove dist from git" />
     <MESSAGE value="feat: added bull.js for notifications schedule" />
     <MESSAGE value="refactor: moved the database to a separate module" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: moved the database to a separate module" />
+    <MESSAGE value="refactor: deleted tests and added env example" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: deleted tests and added env example" />
   </component>
 </project>
