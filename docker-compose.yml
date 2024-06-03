@@ -1,0 +1,73 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - "6379:6379"
+    environment:
+      - REDIS_HOST=${REDIS_HOST}
+      - REDIS_PORT=${REDIS_PORT}
+    restart: always
+
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    ports:
+      - "5437:5432"
+    environment:
+      - POSTGRES_USER=${DB_USERNAME}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
+    restart: always
+
+  micro-server:
+    build:
+      context: ./micro-server
+      dockerfile: Dockerfile
+    container_name: server
+    ports:
+      - "3000:3000"
+    depends_on:
+      - redis
+    environment:
+      - REDIS_HOST=${REDIS_HOST}
+      - REDIS_PORT=${REDIS_PORT}
+    restart: always
+
+  micro-notification:
+    build:
+      context: ./micro-notification
+      dockerfile: Dockerfile
+    container_name: notification-service
+    ports:
+      - "3001:3001"
+    depends_on:
+      - redis
+    environment:
+      - REDIS_HOST=${REDIS_HOST}
+      - REDIS_PORT=${REDIS_PORT}
+    restart: always
+
+  micro-database:
+    build:
+      context: ./micro-database
+      dockerfile: Dockerfile
+    container_name: database-service
+    ports:
+      - "3002:3002"
+    depends_on:
+      - postgres
+      - redis
+    environment:
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}
+      - DB_USERNAME=${DB_USERNAME}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_NAME=${DB_NAME}
+    restart: always
+
+volumes:
+  redis-data:
+  postgres-data:

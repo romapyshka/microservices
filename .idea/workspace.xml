@@ -4,23 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96a1d60e-ee7a-437b-8f10-7915540df93d" name="Changes" comment="refactor">
-      <change afterPath="$PROJECT_DIR$/micro-database/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-database/src/database/database.module.ts" afterDir="false" />
+    <list default="true" id="96a1d60e-ee7a-437b-8f10-7915540df93d" name="Changes" comment="refactor: changed message in dto">
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-database/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-notification/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-server/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-database/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/micro-database/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-database/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/micro-database/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-database/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/micro-database/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-database/src/app.controller.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-database/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-database/src/app.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-database/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-database/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-database/src/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-database/src/app.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-database/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-database/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-database/src/user/user.controller.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-database/src/user/user.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-database/test/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-database/test/jest-e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-server/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/micro-server/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-database" beforeDir="false" afterPath="$PROJECT_DIR$/micro-database" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/src/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/src/app.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-notification/src/queue/queue.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/src/queue/queue.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-server" beforeDir="false" afterPath="$PROJECT_DIR$/micro-server" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/micro-database" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
@@ -58,7 +55,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\Dumb\\microservices\\micro-server\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "D:\\Dumb\\microservices\\micro-notification\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -67,8 +64,8 @@
       <recent name="D:\Dumb\microservices\micro-database" />
       <recent name="D:\Dumb\microservices\micro-notification" />
       <recent name="D:\Dumb\microservices\micro-server" />
+      <recent name="D:\Dumb\microservices" />
       <recent name="D:\Dumb\microservices\http-server\src\users\entities" />
-      <recent name="D:\Dumb\microservices\http-server\src\users\dto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Dumb\microservices\http-server\src" />
@@ -87,7 +84,9 @@
       <workItem from="1717270279979" duration="2407000" />
       <workItem from="1717332527361" duration="2822000" />
       <workItem from="1717335445826" duration="10664000" />
-      <workItem from="1717354771073" duration="8905000" />
+      <workItem from="1717354771073" duration="13127000" />
+      <workItem from="1717380580965" duration="326000" />
+      <workItem from="1717382244689" duration="368000" />
     </task>
     <task id="LOCAL-00001" summary="feat: connect notification to server">
       <created>1717334266266</created>
@@ -201,7 +200,35 @@
       <option name="project" value="LOCAL" />
       <updated>1717374707845</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="refactor: moved the database to a separate module and added ConfigServices for all project">
+      <created>1717376003407</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717376003407</updated>
+    </task>
+    <task id="LOCAL-00018" summary="refactor: moved the database to a separate module and added ConfigServices for all project">
+      <created>1717376012150</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1717376012150</updated>
+    </task>
+    <task id="LOCAL-00019" summary="refactor: changed message in dto">
+      <created>1717376046579</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1717376046579</updated>
+    </task>
+    <task id="LOCAL-00020" summary="refactor: changed message in dto">
+      <created>1717376051350</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1717376051350</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +246,8 @@
     <MESSAGE value="refactor: deleted tests and added env example" />
     <MESSAGE value="refactor: added ConfigService for variables and refactored name of console logs" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="refactor: moved the database to a separate module and added ConfigServices for all project" />
+    <MESSAGE value="refactor: changed message in dto" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: changed message in dto" />
   </component>
 </project>
