@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96a1d60e-ee7a-437b-8f10-7915540df93d" name="Changes" comment="feat: remove dist from git">
-      <change afterPath="$PROJECT_DIR$/micro-notification/src/queue/queue.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-notification/src/queue/queue.processor.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-notification/src/queue/queue.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-notification/src/queue/queue.service.ts" afterDir="false" />
+    <list default="true" id="96a1d60e-ee7a-437b-8f10-7915540df93d" name="Changes" comment="feat: added bull.js for notifications schedule">
+      <change afterPath="$PROJECT_DIR$/micro-server/src/database/database.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-notification/src/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-notification/src/app.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-server/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-server/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-server/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-server/src/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-server/src/app.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-server/src/notification/notification.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-server/src/notification/notification.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-server/src/user/dto/create-user.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-server/src/user/dto/create-user.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-server/src/user/user.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-server/src/user/user.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-server/src/user/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-server/src/user/user.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-server/src/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/micro-server/src/user/user.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/micro-notification" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/micro-server" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
@@ -75,7 +79,7 @@
       <workItem from="1717270279979" duration="2407000" />
       <workItem from="1717332527361" duration="2822000" />
       <workItem from="1717335445826" duration="10664000" />
-      <workItem from="1717354771073" duration="4709000" />
+      <workItem from="1717354771073" duration="6183000" />
     </task>
     <task id="LOCAL-00001" summary="feat: connect notification to server">
       <created>1717334266266</created>
@@ -126,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717369635892</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: added bull.js for notifications schedule">
+      <created>1717371550435</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717371550435</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: added bull.js for notifications schedule">
+      <created>1717371555438</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717371555438</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +157,7 @@
     <MESSAGE value="feat: connected database to server" />
     <MESSAGE value="feat: added webhook notification" />
     <MESSAGE value="feat: remove dist from git" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: remove dist from git" />
+    <MESSAGE value="feat: added bull.js for notifications schedule" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added bull.js for notifications schedule" />
   </component>
 </project>
